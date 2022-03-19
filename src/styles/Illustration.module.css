@@ -1,0 +1,12 @@
+/* illustration component  */
+.illustration {
+  padding: 5rem 2rem;
+}
+.illustration img {
+  max-width: 80%;
+}
+@media only Screen and (max-width: 1023) {
+  .illustration {
+    display: none;
+  }
+}
