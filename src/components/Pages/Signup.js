@@ -27,9 +27,14 @@ const Signup = () => {
             icon="lock_clock"
           />
 
-          <CheckBox type="checkbox" />
+          <CheckBox
+            type="checkbox"
+            text="I agree to the Terms &amp; Conditions"
+          />
 
-          <Button>Submit Now</Button>
+          <Button>
+            <span>Submit Now</span>
+          </Button>
 
           <div className="info">
             Aready have an account ? <a href="./login.html">login</a> instead.

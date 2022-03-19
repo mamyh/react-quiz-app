@@ -19,7 +19,9 @@ const Login = () => {
             icon="alternate_email"
           />
           <TextInput type="password" placeholder="Enter Password" icon="lock" />
-          <Button>Login </Button>
+          <Button>
+            <span>Login</span>
+          </Button>
           <div class="info">
             Don't have an account ?<a href="./signup.html">Signup </a>instead.
           </div>
