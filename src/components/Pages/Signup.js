@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import signupImage from "../../assets/signup.svg";
 import classes from "../../styles/Signup.module.css";
 import CheckBox from "../signup/CheckBox";
@@ -37,7 +38,7 @@ const Signup = () => {
           </Button>
 
           <div className="info">
-            Aready have an account ? <a href="./login.html">login</a> instead.
+            Aready have an account ? <Link to="/login">login</Link> instead.
           </div>
         </Form>
       </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import loginImage from "../../assets/login.svg";
 import classes from "../../styles/Login.module.css";
 import Button from "../signup/Button";
@@ -10,7 +11,7 @@ const Login = () => {
   return (
     <>
       <h1>Login to your account</h1>
-      <div class="column">
+      <div className="column">
         <Illustration image={loginImage} />
         <Form action="#" className={classes.login}>
           <TextInput
@@ -22,8 +23,8 @@ const Login = () => {
           <Button>
             <span>Login</span>
           </Button>
-          <div class="info">
-            Don't have an account ?<a href="./signup.html">Signup </a>instead.
+          <div className="info">
+            Don't have an account ?<Link to="/signup">Signup </Link>instead.
           </div>
         </Form>
       </div>
