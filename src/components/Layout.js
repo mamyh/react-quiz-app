@@ -3,7 +3,6 @@ import classes from "../styles/Layout.module.css";
 import Nav from "./common/navbar/Nav";
 
 const Layout = ({ children }) => {
-  console.log(children);
   return (
     <>
       <Nav />
